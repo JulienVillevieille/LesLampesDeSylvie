@@ -1,0 +1,22 @@
+/* =========================================== */
+/* ================= HEADER ================== */
+/* =========================================== */
+
+header
+{
+    background-image: url("../images/backgroundBody.jpg");
+    margin-top: 0;
+}
+
+#header_image_logo
+{
+    margin: auto;
+    text-align: center;
+}
+
+#header_image_logo img
+{
+    height: 280px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

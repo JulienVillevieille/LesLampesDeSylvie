@@ -1,0 +1,312 @@
+body
+{
+    background-image: url("../images/mainBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#main_body
+{
+    width: 75%;
+    margin: auto;
+}
+
+#main_body_presentation_technical_lamp
+{
+    background-image: url("../images/backgroundBody.jpg");
+    padding-bottom: 1px;
+}
+
+#main_body_presentation_technical_lamp h2
+{
+    width: 60%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    font-family: 'Kaufmann', Cambria, Georgia, Times, serif;
+    font-weight: bold;
+    font-size: 3em;
+    border-bottom: 2px solid rgb(20, 20, 20);
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+
+
+#presentation_technical_lamp
+{
+    margin: auto;
+    width: 90%;
+    text-align: left;
+    color: rgb(20, 20, 20);
+    font-family: Cambria, Georgia, Times, serif;
+}
+
+#presentation_technical_lamp h3
+{
+    /* width: 30%; */
+    width: auto;
+    color: rgb(251, 49, 122);
+    /* color: rgb(194, 152, 117); */
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 30px;
+    text-decoration-thickness: 2px;
+    padding-bottom: 50px;
+    /* border-bottom: 2px solid rgb(251, 49, 122); */
+    /* border-bottom: 2px solid rgb(194, 152, 117); */
+}
+
+#presentation_technical_lamp #main_lamp_presentation
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#presentation_technical_lamp #all_text_presentation
+{
+    /* box-shadow: 0px 0px 10px rgb(117, 117, 117); */
+    padding: 15px;
+}
+
+#presentation_technical_lamp #main_lamp_presentation #lamp_lighted
+{
+    text-align: center;
+}
+
+#presentation_technical_lamp #main_lamp_presentation #lamp_lighted img
+{
+    margin: auto;
+    width: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px rgb(63, 63, 63);
+}
+
+#presentation_technical_lamp .button_turn_off_on_lamp
+{
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+    /* background-color: rgb(128, 253, 97); */
+    background-color:  rgb(226, 184, 150);
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: Cambria, Georgia, Times, serif;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+    font-weight: bold;
+    border: 2px solid rgb(20, 20, 20);
+    transition: all .3s ease-in-out;
+}
+
+#presentation_technical_lamp .button_turn_off_on_lamp i
+{
+    transform: translate(0, 3px);
+    color: rgb(20,20,20);
+    font-size: 1.3em;
+    margin-right: 10px;
+}
+
+#presentation_technical_lamp .button_turn_off_on_lamp .lighted
+{
+    color: rgb(243, 240, 41);
+    text-shadow: 2px 2px 20px rgb(236, 235, 156);
+}
+
+#presentation_technical_lamp .button_turn_off_on_lamp:hover i
+{
+    transform: translate(0, 3px) rotateY(360deg);
+    transition: .8s;
+}
+
+#presentation_technical_lamp .button_turn_off_on_lamp:hover
+{
+    /* transform: scale(1.2); */
+    text-decoration : underline;
+    cursor: pointer;
+}
+
+#presentation_technical_lamp #main_lamp_presentation #first_step_presentation
+{
+    text-align: justify;
+    font-size: 1.2em;
+    margin-bottom: 75px;
+
+}
+
+#presentation_technical_lamp .text_announce_promo
+{
+    display: inline-block;
+    font-size: 1.3em;
+    color: rgb(251, 49, 122);
+    text-shadow: 3px 3px 10px rgba(20, 20, 20, 0.4);
+    text-decoration-style: double;
+    text-decoration:underline;
+}
+
+#presentation_technical_lamp .lamp_price_text,
+#presentation_technical_lamp .lamp_promo_price_promo_text
+{
+    display: inline-block;
+    color: rgb(251, 49, 122);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 2px 2px 15px rgba(20, 20, 20, 0.5);
+    border-radius: 30px;
+    border: 2px solid rgb(251, 49, 122);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 2px 2px 10px rgba(251, 49, 122, 0.3);
+}
+
+#presentation_technical_lamp .lamp_promo_price_text
+{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.3em;
+    border-radius: 30px;
+    border: 2px solid rgb(20, 20, 20);
+    box-shadow: 2px 2px 10px rgba(20, 20, 20, 0.3);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: rgb(20, 20, 20);
+    text-decoration: line-through;
+    margin-right: 40px;
+}
+
+#presentation_technical_lamp .lamp_promo_price_promo_text
+{
+    transform: rotateZ(-15deg) scale(1.2);
+}
+
+#presentation_technical_lamp #first_step_presentation .lamp_not_available_text
+{
+    font-size: 1.25em;
+    font-weight: bold;
+    color: rgb(167, 0, 0);
+    text-decoration: underline;
+}
+
+#presentation_technical_lamp #first_step_presentation .button_contact
+{
+    display: inline-block;
+    color: rgb(20, 20, 20);
+    font-family: Cambria, Georgia, Times, serif;
+    font-size: 1.15em;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 10px;
+    box-shadow: 2px -2px 5px rgb(119, 119, 119);;
+    background-color:rgb(226, 184, 150);
+    text-decoration: none;
+    margin-top: 20px;
+    transition: .8s;
+}
+
+#presentation_technical_lamp #first_step_presentation .button_contact i
+{
+    margin-right: 10px;
+    transition: .8s;
+}
+
+#presentation_technical_lamp #first_step_presentation .button_contact:hover
+{
+    transform: scale(1.05);
+    text-decoration: underline;
+}
+
+#presentation_technical_lamp #first_step_presentation .button_contact:hover i
+{
+    transform: rotateY(360deg);
+}
+
+
+
+#presentation_technical_lamp h4
+{
+    width: 40%;
+    color: rgb(251, 49, 122);
+    /* color: rgb(194, 152, 117); */
+    font-size: 1.7em;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(251, 49, 122);
+    /* border-bottom: 2px solid rgb(194, 152, 117); */
+}
+
+#presentation_technical_lamp #second_step_presentation
+{
+    font-size: 1.2em;
+    text-align: justify;
+    margin-bottom: 75px;
+
+}
+
+#presentation_technical_lamp #second_step_presentation .ce_img
+{
+    /* transform: translate(0, 6px); */
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 25px;
+}
+
+#presentation_technical_lamp strong
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.presentation_photos
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 75px;
+}
+
+.presentation_photos a
+{
+    text-align: center;
+}
+
+.presentation_photos a img
+{
+    width: 95%;
+    border-radius: 10px;
+    border: 2px solid rgb(20, 20, 20);
+    transition: all .3s ease-in-out;
+    cursor: zoom-in;
+}
+
+.presentation_photos a img:hover
+{
+    transform: rotateZ(5deg) scale(1.1);
+}
+
+
+@media screen and (max-width: 1499px)
+{
+    #main_body
+    {
+        width: 100%;
+    }
+}
+
+

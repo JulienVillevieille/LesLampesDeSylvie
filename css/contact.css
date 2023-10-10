@@ -1,0 +1,195 @@
+
+body
+{
+    background-image: url("../images/mainBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#main_body
+{
+    width: 75%;
+    margin: auto;
+}
+
+/* =========================================== */
+/* ================ MAIN_BODY ================ */
+/* =========================================== */
+
+#main_body_contact
+{
+    background-image: url("../images/backgroundBody.jpg");
+    margin: auto;
+}
+
+#main_body_contact h2
+{
+    width: 60%;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    text-align: center;
+    font-family: 'Kaufmann', Cambria, Georgia, Times, serif;
+    font-weight: bold;
+    font-size: 3em;
+    /* text-transform: uppercase; */
+    border-bottom: 2px solid rgb(20, 20, 20);
+    margin-bottom: 5%;
+}
+
+#main_body_contact p
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: Cambria, Georgia, Times, serif;
+    font-size: 1.2em;
+}
+
+#main_body_contact p strong
+{
+    font-weight: bold;
+}
+
+#main_body_contact p .warning
+{
+    color: rgb(173, 18, 18);
+    font-weight: bold;
+    font-style: italic;
+}
+
+#main_body_contact ul
+{
+    text-align: center;
+    font-family: Cambria, Georgia, Times, serif;
+    font-size: 1.2em;
+}
+
+#main_body_contact ul li
+{
+    list-style-type: square;
+    list-style-position: inside;
+    margin-bottom: 10px;
+    
+}
+
+/* =========================================== */
+/* =================== FORM ================== */
+/* =========================================== */
+
+#contact_form
+{
+    width: 500px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+#contact_form .elem-group 
+{
+    margin: 40px 0;
+}
+  
+#contact_form label 
+{
+    display: block;
+    font-family: Cambria, Georgia, Times, serif;
+    padding-bottom: 4px;
+    font-size: 1.25em;
+}
+
+#contact_form em
+{
+    color:crimson;
+}
+
+#contact_form p
+{
+    display: inline-block;
+    text-align: left;
+    font-family: Cambria, Georgia, Times, serif;
+    font-size: 1em;
+    padding-bottom: 20px;
+}
+
+#contact_form .message_send
+{
+    display: inline;
+    font-style: italic;
+    font-family: Cambria, Georgia, Times, serif;
+    color:green;
+    margin-left: 10px;
+}
+  
+#contact_form input, #contact_form select, #contact_form textarea
+{
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-family: Cambria, Georgia, Times, serif;
+    width: 500px;
+    padding: 8px;
+}
+
+#contact_form textarea 
+{
+    height: 250px;
+}
+  
+#contact_form button 
+{
+    height: 50px;
+
+    /* Bouton vert */
+    background: green;
+    color: white;
+    border: 2px solid darkgreen;
+
+    /* Bouton Rose */
+    /* background: rgb(251, 49, 122); 
+    color: white; 
+    border: 2px solid rgb(251, 49, 122); */
+
+    /* Bouton Sable */
+    /* background: rgb(226, 184, 150);
+    color: rgb(20,20,20);
+    border: 2px solid rgb(184, 150, 123); */
+
+    font-size: 1.25em;
+    font-family: Cambria, Georgia, Times, serif;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+#contact_form button:hover 
+{
+    border: 2px solid black;
+}
+
+#contact_form button i
+{
+    font-size: 1.3em;
+    margin-left: 5px;
+    margin-right: 10px;
+    transform: translate(0, 2px);
+}
+
+#contact_form button:hover i
+{
+    transform: translate(0, 2px) rotateY(360deg);
+    transition: .8s;
+    
+}
+
+
+@media screen and (max-width: 1499px)
+{
+    #main_body
+    {
+        width: 100%;
+    }
+}
+

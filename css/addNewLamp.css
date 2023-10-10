@@ -1,0 +1,180 @@
+body
+{
+    background-image: url("../images/mainBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#main_body
+{
+    width: 75%;
+    margin: auto;
+}
+
+#main_body_home
+{
+    background-image: url("../images/backgroundBody.jpg");
+}
+
+#main_body .separator
+{
+    background-color :rgb(226, 184, 150);
+    height: 25px;
+}
+
+#main_body_home h2
+{
+    width: 60%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    text-align: center;
+    font-family: 'Kaufmann', Cambria, Georgia, Times, serif;
+    font-weight: bold;
+    font-size: 3em;
+    border-bottom: 2px solid rgb(20, 20, 20);
+    margin-bottom: 5%;
+}
+
+/* ============================================================================= */
+/* ======================= BOUTON RETOUR ADMINISTRATION  ======================= */
+/* ============================================================================= */
+
+#main_body_home .button_returnAdmin
+{
+    display: inline-block;
+    text-align: center;
+    background-color:rgb(226, 184, 150);
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 10px;
+    margin-bottom: 60px;
+    padding: 10px;
+    transition: .5s;
+    margin-left: 25px;
+}
+
+#main_body_home .button_returnAdmin a
+{
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+    font-weight: bold;
+    font-size: 1.4em;
+    font-family: Cambria, Georgia, Times, serif;
+}
+
+#main_body_home .button_returnAdmin a i
+{
+    font-size: 1.1em;
+    transition: .8s;
+    margin-right: 10px;
+}
+
+#main_body_home .button_returnAdmin:hover
+{
+    background-color: rgb(178, 240, 172);
+    text-decoration: underline;
+}
+
+#main_body_home .button_returnAdmin:hover i
+{
+    transform: rotateY(360deg);
+}
+
+/* ============================================================================= */
+/* ================================ FORMULAIRE  ================================ */
+/* ============================================================================= */
+
+#main_body_home #input-select-form
+{
+    font-size: 1.1em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form_add_lamp span
+{
+    width: 35%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: baseline;
+    background-color:rgb(226, 184, 150);
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+#form_add_lamp span label
+{
+    font-size: 1.15em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+#form_add_lamp span label em
+{
+    font-weight: normal;
+    font-style: italic;
+}
+
+#form_add_lamp span select,
+#form_add_lamp span input,
+#form_add_lamp span textarea,
+#form_add_lamp span button
+{
+    padding: 10px;
+    font-family: Cambria, Georgia, Times, serif;
+    font-size: 0.9em;
+    text-align: left;
+    width: 94%;
+    border: 2px solid rgb(20, 20, 20);
+    border-radius:5px;
+    box-shadow: 1px 1px 5px rgba(20, 20, 20, 0.3);
+    margin-bottom: 20px;
+    background:rgb(240, 225, 200);
+}
+
+#form_add_lamp span select:valid,
+#form_add_lamp span input:valid,
+#form_add_lamp span textarea:valid
+{
+    background-color: rgb(202, 243, 199);
+}
+
+#form_add_lamp span input::placeholder,
+#form_add_lamp span textarea::placeholder
+{
+    font-style: italic;
+}
+
+#form_add_lamp span button
+{
+    font-size: 1.5em;
+    margin: auto;
+    text-align: center;
+    transition: .3s;
+}
+
+#form_add_lamp span button:hover
+{
+    text-decoration: underline;
+    background-color: rgb(202, 243, 199);
+    transform: scale(1.05);
+}
+
+#form_add_lamp span img
+{
+    margin: auto;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+

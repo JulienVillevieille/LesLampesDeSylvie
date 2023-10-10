@@ -1,0 +1,126 @@
+body
+{
+    background-image: url("../images/mainBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#main_body
+{
+    width: 75%;
+    margin: auto;
+}
+
+#main_body .separator
+{
+    background-color :rgb(226, 184, 150);
+    height: 25px;
+}
+
+#main_body_home
+{
+    background-image: url("../images/backgroundBody.jpg");
+}
+
+#main_body_home h2
+{
+    width: 60%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    text-align: center;
+    font-family: 'Kaufmann', Cambria, Georgia, Times, serif;
+    font-weight: bold;
+    font-size: 3em;
+    border-bottom: 2px solid rgb(20, 20, 20);
+    margin-bottom: 5%;
+}
+
+#main_body_home .badUserID
+{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Cambria, Georgia, Times, serif;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 2px solid rgb(20,20,20);
+    border-radius: 10px;
+    background-color: rgb(247, 206, 206);
+    color: rgb(160, 25, 25);
+}
+
+#main_body_home .badUserID i
+{
+    margin-right: 15px;
+}
+
+#login_form
+{
+    width: 500px;
+    margin: auto;
+    text-align: right;
+
+    font-family: Cambria, Georgia, Times, serif;
+    font-size: 1.2em;
+    color: rgb(20, 20, 20);
+    margin-bottom: 40px;
+    padding: 20px 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 100px;
+}
+
+#login_form input
+{
+    padding: 10px;
+    font-family: Cambria, Georgia, Times, serif;
+    font-size: 0.9em;
+    text-align: just;
+    width: 66%;
+    border: 2px solid rgb(20, 20, 20);
+    border-radius:5px;
+    margin-bottom: 15px;
+}
+
+#login_form button
+{
+    padding: 10px;
+    font-family: Cambria, Georgia, Times, serif;
+    font-size: 0.9em;
+    text-align: center;
+    width: 150px;
+    border: 2px solid rgb(20, 20, 20);
+    border-radius:5px;
+    transition: .3s;
+}
+
+#login_form button:hover
+{
+    background-color: rgb(178, 240, 172);
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.access_site
+{
+    margin-top: 50px;
+    text-align: left;
+}
+
+.access_site a
+{
+    text-decoration: none;
+    color: rgb(251, 49, 122);
+    transition: .3s;
+}
+
+.access_site a:hover
+{
+    text-decoration: underline;
+    font-size: 1.1em;
+}

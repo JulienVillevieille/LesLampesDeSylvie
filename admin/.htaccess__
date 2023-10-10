@@ -1,0 +1,4 @@
+AuthName "Page d'administration protégée"
+AuthType Basic
+AuthUserFile "/kunden/homepages/26/d871312534/htdocs/leslampesdesylvie/admin/.htpasswd"
+Require valid-user

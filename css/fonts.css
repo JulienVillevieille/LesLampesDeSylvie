@@ -1,0 +1,8 @@
+@font-face 
+{
+    font-family: 'Kaufmann';
+    src: url('../fonts/KAUFMANN/KAUFMANN.eot') format('eot'),
+         url('../fonts/KAUFMANN/KAUFMANN.woff') format('woff'),
+         url('../fonts/KAUFMANN/KAUFMANN.TTF') format('truetype'),
+         url('../fonts/KAUFMANN/KAUFMANN.svg') format('svg');
+}
